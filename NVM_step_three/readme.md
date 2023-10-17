@@ -17,8 +17,34 @@ More info RandomNerdTutorial [ESP8266 Pinout Reference: Which GPIO pins should y
 ## Schematic
 ## See also
 
-Rui Santos
-  Complete project details at http://randomnerdtutorials.com  
-  https://www.instructables.com/DC-Motor-and-Servo-Motor-Control-Via-Web-Server-ES/
-  https://surtrtech.com/2018/01/27/step-by-step-on-how-to-use-the-l298n-dual-h-bridge-driver-with-arduino/
-  L298N Dual H-Bridge
+1. Rui Santos, Complete project details at http://randomnerdtutorials.com  
+  2. [Instrucatables DC Motor and Servo Motor Control Vía Web ESP8266](https://www.instructables.com/DC-Motor-and-Servo-Motor-Control-Via-Web-Server-ES/)
+ 3. [SurtrTech How to use 1298nn Dual h bridge drive with arduino](https://surtrtech.com/2018/01/27/step-by-step-on-how-to-use-the-l298n-dual-h-bridge-driver-with-arduino/)
+  
+
+##HTML CODE
+Botón web sin selección de texto
+
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .no-select {
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+  </style>
+</head>
+<body>
+
+  <button class="no-select">Mi Botón</button>
+
+</body>
+</html>
+```
